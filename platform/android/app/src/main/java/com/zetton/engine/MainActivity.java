@@ -48,7 +48,6 @@ public class MainActivity extends Activity {
         @Override
         public void onSurfaceChanged(
                 javax.microedition.khronos.opengles.GL10 gl,
-                javax.microedition.khronos.egl.EGLConfig config,
                 int width,
                 int height) {
             nativeResize(width, height);
